@@ -2,8 +2,8 @@ body {
     background-image: url('../assets/Bricks_background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    @import url('https://fonts.googleapis.com/css2?family=Paprika&family=Peralta&display=swap');
-    font-family: 'Peralta', cursive;
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Sacramento&display=swap');
+    font-family: 'Inter', cursive;
     font-size: 100 px;
     text-align: center;
     
@@ -11,7 +11,7 @@ body {
 
 .h2 {
     text-align: center;
-    font-family: 'Peralta', bold;
+    
 }
 
 header {
@@ -22,6 +22,8 @@ header {
     display: block;
     top: 30px;
     z-index: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
 }
 
 p{ background-color: rgb(193, 83, 83);
@@ -34,7 +36,7 @@ p{ background-color: rgb(193, 83, 83);
 
 #second-paragraph  {
     background-color: rgb(125, 67, 67);
-    
+
     color: black;
     width: 33%;
     height: 300px;
