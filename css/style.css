@@ -35,10 +35,11 @@ p{ background-color: rgb(193, 83, 83);
 #second-paragraph  {
     background-color: rgb(107, 34, 34);
     color: black;
-    width: 600px;
+    width: 100%;
     height: 200px;
     padding: 20px 10px 20px 30 px;
     margin: 50px 100px 200px 200px;
+    
 
 }
 
@@ -59,7 +60,7 @@ p{ background-color: rgb(193, 83, 83);
 }
 
 .inside-box  {
-    background-color: aliceblue;
+    background-color: rgb(125, 67, 67);
     color: black;
     width: 50%;
     position: absolute;
@@ -67,6 +68,7 @@ p{ background-color: rgb(193, 83, 83);
     right: 40px;
     font-size: 32px;
     font-family: 'Peralta', cursive;
+    text-align: center;
 
 }
 
