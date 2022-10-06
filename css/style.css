@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sacramento&display=swap');
+
 body {
     background-image: url('../assets/Bricks_background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Sacramento&display=swap');
+    
     font-family: 'Inter', cursive;
     font-size: 100 px;
     text-align: center;
@@ -17,15 +19,50 @@ body {
 
 header {
     background-color: rgb(193, 83, 83);
-    padding: 20px;
+    padding: 10px;
     position: sticky;
-    width: 100%;
-    display: block;
+    width: 110%;
+    display: relative;
     top: 30px;
     z-index: 0;
     font-family: 'Sacramento', cursive;
     font-size: 50px;
 }
+
+menu {
+    background-color:rgb(193, 83, 83) ;
+    position: sticky;
+    width: 20%;
+    margin-top: 20%;
+    font: right;
+}
+
+@media screen and{min-width: 700px;
+    
+}
+
+.centered {
+    width: 80%;
+    
+}
+
+.Charlie {
+    background-color: rgb(125, 67, 67);
+    width: 33%;
+}
+
+.Lily {
+    background-color:rgb(125, 67, 67) ;
+    width: 33%;
+    margin-left: 100px;
+}
+
+ 
+    
+    
+
+
+
 
 p{ background-color: rgb(193, 83, 83);
 }
@@ -55,31 +92,29 @@ p{ background-color: rgb(193, 83, 83);
 }
 
 .my-box {
-     width: 100%;
+    background-color:rgb(125, 67, 67) ;
+     width: 33%;
      height: 400px;
-     
-     position: relative;
-     
-     
-}
+     margin-left: auto;
+     margin-top: 50px;
 
-.inside-box  {
-    background-color: rgb(125, 67, 67);
-    color: black;
-    width: 50%;
-    position: absolute;
-    top: 60px;
-    right: 40px;
-    font-size: 32px;
-    font-family: 'Peralta', cursive;
-    text-align: center;
 
-}
+
+
+ }    
+     
+     
 
 .sticky-box {
     display: block;
     position: fixed;
     top: 124px;
+}
+
+footer {
+    background-color: rgb(193, 83, 83);
+    height: 80px;
+    width: 110%;
 }
 
 
