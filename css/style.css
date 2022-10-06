@@ -47,13 +47,17 @@ menu {
 
 .Charlie {
     background-color: rgb(125, 67, 67);
-    width: 33%;
+    width: 33%; 
+    margin-right: 50% center it;
+    image-rendering: align;
+    
 }
 
 .Lily {
     background-color:rgb(125, 67, 67) ;
     width: 33%;
-    margin-left: 100px;
+    margin: 100px 100px /center it ;
+    
 }
 
  
@@ -114,6 +118,7 @@ footer {
     background-color: rgb(193, 83, 83);
     height: 80px;
     width: 110%;
+    padding: 0px;
 }
 
 
