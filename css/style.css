@@ -31,7 +31,7 @@ header {
 
 menu {
     background-color:rgb(193, 83, 83) ;
-    position: relative;
+    position:static;
     width: 20%;
     margin-top: 20%;
     font: right;
