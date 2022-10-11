@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Sacramento&display=swap');
 
+
+html {
+
+}
+
+@media screen and (min-widht: 700px) {
+    html {
+        font-size: 20px;
+    }
+    
+}
 body {
     background-image: url('../assets/Bricks_background.jpg');
     background-size: cover;
@@ -27,6 +38,28 @@ header {
     z-index: 0;
     font-family: 'Sacramento', cursive;
     font-size: 50px;
+}
+
+@media print {
+    header {
+        display: none;
+    }
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+}
+
+@media  screen and (min-widht: 700px) {
+    header ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+    
 }
 
 menu {
