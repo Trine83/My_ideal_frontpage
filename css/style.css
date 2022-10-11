@@ -31,7 +31,7 @@ body {
 
 header {
     background-color: rgb(193, 83, 83);
-    padding: 10px;
+    padding: 1rem;
     position: sticky;
     width: 110%;
     display: relative;
@@ -39,7 +39,7 @@ header {
     z-index: 0;
     font-family: 'Sacramento', cursive;
     font-size: 50px;
-    padding: 1rem;
+    
     /*position: fixed;
     width: 100%;
     display: block;
@@ -148,7 +148,7 @@ p{ background-color: rgb(193, 83, 83);
 
 footer {
     background-color: rgb(193, 83, 83);
-    height: 80px;
+    height: 100px;
     width: 110%;
     padding: 0px;
 }
