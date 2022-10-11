@@ -2,12 +2,13 @@
 
 
 html {
+    font-size: 14px; /*1rem verdi i mobil versjon*/
 
 }
 
 @media screen and (min-widht: 700px) {
     html {
-        font-size: 20px;
+        font-size: 20px; /*1rem verdi i desktop versjon */
     }
     
 }
@@ -34,10 +35,16 @@ header {
     position: sticky;
     width: 110%;
     display: relative;
-    top: 30px;
+    top: opx;
     z-index: 0;
     font-family: 'Sacramento', cursive;
     font-size: 50px;
+    padding: 1rem;
+    /*position: fixed;
+    width: 100%;
+    display: block;
+    top: 0;
+    z-index: 5;*/
 }
 
 @media print {
@@ -62,12 +69,8 @@ header ul {
     
 }
 
-menu {
-    background-color:rgb(193, 83, 83) ;
-    position:static;
-    width: 20%;
-    margin-top: 20%;
-    font: right;
+.hamburger {
+    display: block;
 }
 
 
@@ -137,7 +140,9 @@ p{ background-color: rgb(193, 83, 83);
 
 
 
- }    
+
+
+     
      
      
 
