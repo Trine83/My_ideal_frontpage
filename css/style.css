@@ -14,7 +14,7 @@ html {
 }
 body {
     background-image: url('../assets/Bricks_background.jpg');
-    background-size: cover;
+    background-size: 115%;
     background-repeat: no-repeat;
     
     font-family: 'Inter', cursive;
@@ -98,11 +98,6 @@ header ul {
 
  
     
-    
-
-
-
-
 p{ background-color: rgb(193, 83, 83);
 }
 
@@ -131,32 +126,39 @@ p{ background-color: rgb(193, 83, 83);
 }
 
 .my-box {
-    background-color:rgb(125, 67, 67) ;
+     
      width: 33%;
      height: 400px;
      margin-left: auto;
      margin-top: 50px;
 
-
-
-
+    }
 
 
      
      
-     
-
-.sticky-box {
-    display: block;
-    position: fixed;
-    top: 124px;
-}
 
 footer {
     background-color: rgb(193, 83, 83);
     height: 80px;
     width: 110%;
-    padding: 0px;
+}
+    
+    
+
+.footer-nav {
+    display: block;
+}
+
+@media screen and (min-width: 700px) {
+    .footer-nav {
+        display: none;
+    }
+}
+    
+.footer-nav ul {
+    display: flex;
+    gap: 2 rem;
 }
 
 
