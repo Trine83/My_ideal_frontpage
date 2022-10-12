@@ -14,7 +14,7 @@ html {
 }
 body {
     background-image: url('../assets/Bricks_background.jpg');
-    background-size: 115%;
+    background-size: 100%;
     background-repeat: no-repeat;
     
     font-family: 'Inter', cursive;
@@ -58,6 +58,19 @@ header ul {
     font-size: 20px;
 }
 
+header nav ul li {
+    color: rgb(125, 67, 67);
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+header nav ul li:hover {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
 @media  screen and (min-widht: 700px) {
     header ul {
         list-style: none;
@@ -143,7 +156,7 @@ p{ background-color: rgb(193, 83, 83);
     .flex-item-charlie {
         display: center;
         margin-bottom: 33%;
-        margin-right: 33%;
+        
 
     }
 
@@ -154,7 +167,7 @@ p{ background-color: rgb(193, 83, 83);
     }
 
     .open button {
-        background-color: blue;
+        
         color: white;
         padding: 16px 20px;
         border-radius: 0%;
