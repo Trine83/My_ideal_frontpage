@@ -30,13 +30,11 @@ body {
 }
 
 header {
-    background-color: rgb(193, 83, 83);
-    padding: 1rem;
-    position: sticky;
+    justify-content: space-between;
     width: 110%;
-    display: relative;
     top: opx;
-    z-index: 0;
+    padding: 1rem;
+    /*z-index: 0;
     font-family: 'Sacramento', cursive;
     font-size: 50px;
     
@@ -55,9 +53,9 @@ header {
 header ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 100px;
     font-family: 'Inter', sans-serif;
-    font-size: 32px;
+    font-size: 20px;
 }
 
 @media  screen and (min-widht: 700px) {
@@ -138,12 +136,71 @@ p{ background-color: rgb(193, 83, 83);
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 10rem;
 
     }
 
-    
+    .flex-item-charlie {
+        display: center;
+        margin-bottom: 33%;
+        margin-right: 33%;
+
+    }
+
+    .flex-item-Lily {
+        margin-bottom: 33%;
+        margin-right: 33%;
+
+    }
+
+    .open button {
+        background-color: blue;
+        color: white;
+        padding: 16px 20px;
+        border-radius: 0%;
+        cursor: pointer;
+        opacity: 0.8;
+        position: fixed;
+        bottom: 23px;
+        right: 28px;
+        width: 280px;
+
+    }
      
+    .form popup {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        border: 3px solid #f1f1f1;
+        z-index: 9;
+    }
+
+    .form-container {
+        max-width: 300px;
+        padding: 10 px;
+        background-color: white;
+    }
+
+    .form-container .btn {
+        background-color: black;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+        opacity: 0.8;
+    }
+
+        
+    
+
+    .form-container .cancel {
+        background-color: red;
+    }
+
+    
      
 
 footer {

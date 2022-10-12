@@ -109,6 +109,30 @@
         
         </main>
 
+        <button class="open button" onclick="openForm()"></button>
+
+        <div class="form-popup" id="contactform">
+            <form action="/action_page.php"
+            class="form-container">
+            <h1>Contact</h1>
+
+            <Label for="email"><b>Email</b></Label>
+            <input type="text"
+            placeholder="Enter Email" name="email" required>
+
+            <Label for="message"><b>message</b>
+            </Label>
+            <input type="text"
+            placeholder="Enter text" name="text" required>
+
+            <button type="submit"
+            class="btn">send</button>
+            <button type="button" class="btn cancel"
+            onclick="closeform()"Close button>cancel</button>
+        
+        </form>
+        </div>
+
 
         
         <footer>
