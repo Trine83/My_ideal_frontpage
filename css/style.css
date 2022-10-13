@@ -57,10 +57,11 @@ header ul {
     gap: 100px;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
+    
 }
 
 header nav ul li {
-    color: rgb(125, 67, 67);
+    color: black;
     transition-property: all;
     transition-duration: 0.6s;
     transition-timing-function: ease-in-out;
@@ -68,9 +69,8 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+    color: rgb(125, 67, 67);
+    text-decoration: underline;
 }
 @media  screen and (min-widht: 700px) {
     header ul {
