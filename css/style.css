@@ -201,6 +201,21 @@ p{ background-color: rgb(193, 83, 83);
 
     }
 
+    .flex-item-big charlie {
+        height: 5rem;
+        width: 10rem;
+        border-radius: 1rem;
+        margin-top: 2rem;
+
+    }
+
+    .flex-item-big-lily {
+        height: 5rem;
+        width: 10rem;
+        border-radius: 1rem;
+
+    }
+
     .open button {
         
         color: rgb(193, 83, 83);
