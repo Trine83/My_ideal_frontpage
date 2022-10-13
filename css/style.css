@@ -32,7 +32,7 @@ body {
 header {
     justify-content: space-between;
     width: 110%;
-    top: opx;
+    top: 0px;
     padding: 1rem;
     align-items: center;
     /*z-index: 0;
@@ -138,12 +138,46 @@ p{ background-color: rgb(193, 83, 83);
 }
 
 .my-box {
+     width: 100%;
+     height: rem;
+     position: relative;
+     font-size: 2rem;
      
-     width: 33%;
-     height: 400px;
-     margin-left: auto;
-     margin-top: 50px;
 
+    }
+
+    .inside-box {
+        background-color: rgb(125, 67, 67);
+    }
+
+    .inside-box button {
+        font-size: 1.2rem;
+        background-color: rgb(193, 83, 83);
+        padding: 0.5rem 1.2rem;
+        border-radius: 1rem;
+        border: none;
+        margin: 1rem;
+        transition: all 0.6s ease-in-out;
+        transition-delay: 0.2s;
+
+    }
+    
+    .inside-box button:hover {
+        background-color: #f1f1f1;
+
+    }
+
+    .box-model {
+        width: 40rem;
+        height: 10rem;
+        padding: 0.5rem;
+        margin: 1.5rem auto;
+        border: 0.25rem solid #000;
+    }
+
+    .box-model-2 {
+        font-size: 1.2rem;
+        
     }
 
     .flex-container {
@@ -169,7 +203,7 @@ p{ background-color: rgb(193, 83, 83);
 
     .open button {
         
-        color: white;
+        color: rgb(193, 83, 83);
         padding: 16px 20px;
         border-radius: 0%;
         cursor: pointer;
@@ -193,11 +227,11 @@ p{ background-color: rgb(193, 83, 83);
     .form-container {
         max-width: 300px;
         padding: 10 px;
-        background-color: white;
+        background-color: rgb(193, 83, 83);
     }
 
     .form-container .btn {
-        background-color: black;
+        background-color: rgb(125, 67, 67);
         color: white;
         padding: 16px 20px;
         border: none;
@@ -220,7 +254,7 @@ p{ background-color: rgb(193, 83, 83);
 footer {
     background-color: rgb(193, 83, 83);
     height: 100px;
-    width: 110%;
+    width: 100%;
     padding: 0px;
 }
     
