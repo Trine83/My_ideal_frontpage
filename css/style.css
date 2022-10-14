@@ -311,16 +311,15 @@ footer {
     display: block;
 }
 
-@media screen and (min-width:700px) {
+/*@media screen and (min-width:700px) {
     .footer-nav {
         display: flex;
     }
     
-}
+}*/
     
 .footer-nav ul {
     display: flex;
-    
     font-size: 20px;
     justify-content: space-between;
 }
