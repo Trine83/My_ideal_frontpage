@@ -13,9 +13,11 @@ html {
     
 }
 body {
-    background-image: url('../assets/Bricks_background.jpg');
-    background-size: 100%;
+    background-image: url('../assets/Bricks_background.jpg') ;
+    background-size:cover;
     background-repeat: no-repeat;
+    justify-content: center;
+    
     
     font-family: 'Inter', cursive;
     font-size: 100 px;
@@ -30,13 +32,11 @@ body {
 }
 
 header {
-    
-    
-    
     justify-content: space-between;
     width: 110%;
+    height: 150%;
     top: 0px;
-    padding: 1rem;
+    
     align-items: center;
     /*z-index: 0;
     font-family: 'Sacramento', cursive;
@@ -56,8 +56,10 @@ header {
 }
 header ul {
     list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
     display: flex;
-    gap: 100px;
+    
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     
@@ -88,6 +90,19 @@ header nav ul li:hover {
     display: block;
 }
 
+@media screen and (min-width:700px) {
+    .hamburger {
+        display: none;
+    }
+    
+}
+    
+@media screen and (max-width:300px) {
+    header {
+        display: block;
+    }
+    
+}
 
 
 
@@ -96,20 +111,6 @@ header nav ul li:hover {
     
 }
 
-/*.Charlie {
-    background-color: rgb(125, 67, 67);
-    width: 33%; 
-    margin-right: 50% center it;
-    image-rendering: align;
-    
-}
-
-.Lily {
-    background-color:rgb(125, 67, 67) ;
-    width: 33%;
-    margin: 100px 100px /center it ;
-    
-}*/
 
  
     
@@ -151,6 +152,23 @@ p{ background-color: rgb(193, 83, 83);
 
     .inside-box {
         background-color: rgb(125, 67, 67);
+        position: absolute;
+        
+           
+    }
+
+    @keyframes movein {
+        from {
+            transform: translate(-600px);
+        }
+
+        80% {
+            transform: translate(200px);
+        }
+         
+        to {
+            transform: translate(0px);
+        }
     }
 
     .inside-box button {
@@ -170,52 +188,62 @@ p{ background-color: rgb(193, 83, 83);
 
     }
 
+   /* .videowrapper {
+        height: 10rem
+        width: 10rem;
+    }*/
+
     .box-model {
         width: 40rem;
-        height: 10rem;
+        height: 30rem;
         padding: 0.5rem;
         margin: 1.5rem auto;
         border: 0.25rem solid #000;
     }
 
+    .box-model video {
+        height: 100%;
+        width: 100%;
+    }
+
     .box-model-2 {
         font-size: 1.2rem;
+        justify-content: space-around;
         
     }
 
     .flex-container {
+        position: relative;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 10rem;
+        justify-content: space-evenly;
 
     }
 
     .flex-item-charlie {
-        display: center;
-        margin-bottom: 33%;
+        margin: auto;
+               
         
 
     }
 
     .flex-item-Lily {
-        margin-bottom: 33%;
-        margin-right: 33%;
 
+    margin: auto;
+        
     }
 
     .flex-item-big charlie {
-        height: 5rem;
-        width: 10rem;
-        border-radius: 1rem;
-        margin-top: 2rem;
+        margin: auto;
 
     }
 
     .flex-item-big-lily {
-        height: 5rem;
-        width: 10rem;
-        border-radius: 1rem;
+        margin: auto;
+       
+        
 
     }
 
@@ -229,7 +257,7 @@ p{ background-color: rgb(193, 83, 83);
         position: fixed;
         bottom: 23px;
         right: 28px;
-        width: 280px;
+        width: 20px;
 
     }
      
@@ -238,7 +266,7 @@ p{ background-color: rgb(193, 83, 83);
         position: fixed;
         bottom: 0;
         right: 15px;
-        border: 3px solid #f1f1f1;
+        border: 3px solid rgb(193, 83, 83);
         z-index: 9;
     }
 
@@ -246,6 +274,7 @@ p{ background-color: rgb(193, 83, 83);
         max-width: 300px;
         padding: 10 px;
         background-color: rgb(193, 83, 83);
+        justify-content: space-around;
     }
 
     .form-container .btn {
@@ -282,12 +311,18 @@ footer {
     display: block;
 }
 
-
+@media screen and (min-width:700px) {
+    .footer-nav {
+        display: flex;
+    }
+    
+}
     
 .footer-nav ul {
     display: flex;
-    gap: 4rem;
+    
     font-size: 20px;
+    justify-content: space-between;
 }
 
 
