@@ -151,7 +151,7 @@ p{ background-color: rgb(193, 83, 83);
     }
 
     .inside-box {
-        background-color: rgb(125, 67, 67);
+        background-color: #c29591;
         position: absolute;
         
            
@@ -198,7 +198,8 @@ p{ background-color: rgb(193, 83, 83);
         height: 30rem;
         padding: 0.5rem;
         margin: 1.5rem auto;
-        border: 0.25rem solid #000;
+        border: 0.25rem solid #c29591;
+       
     }
 
     .box-model video {
@@ -278,7 +279,7 @@ p{ background-color: rgb(193, 83, 83);
     }
 
     .form-container .btn {
-        background-color: rgb(125, 67, 67);
+        background-color: #c29591;
         color: white;
         padding: 16px 20px;
         border: none;
@@ -299,7 +300,7 @@ p{ background-color: rgb(193, 83, 83);
      
 
 footer {
-    background-color: rgb(193, 83, 83);
+    background-color: #c29591;
     height: 100px;
     width: 100%;
     padding: 0px;
