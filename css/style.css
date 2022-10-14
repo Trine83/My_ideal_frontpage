@@ -195,7 +195,7 @@ p{ background-color: rgb(193, 83, 83);
 
     .box-model {
         width: 40rem;
-        height: 30rem;
+        height: 40rem;
         padding: 0.5rem;
         margin: 1.5rem auto;
         border: 0.25rem solid #c29591;
@@ -203,7 +203,7 @@ p{ background-color: rgb(193, 83, 83);
     }
 
     .box-model video {
-        height: 100%;
+        height: 90%;
         width: 100%;
     }
 
