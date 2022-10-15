@@ -74,7 +74,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    color: rgb(125, 67, 67);
+    color: rgb(234,33,153);
     text-decoration: underline;
 }
 @media  screen and (min-widht: 700px) {
@@ -114,7 +114,7 @@ header nav ul li:hover {
 
  
     
-p{ background-color: rgb(193, 83, 83);
+p{ background-color: rgb(234,33,153);
 }
 
 .first-paragraph {
@@ -151,7 +151,7 @@ p{ background-color: rgb(193, 83, 83);
     }
 
     .inside-box {
-        background-color: #c29591;
+        background-color: rgb(109,194,174);
         position: absolute;
         
            
@@ -173,7 +173,7 @@ p{ background-color: rgb(193, 83, 83);
 
     .inside-box button {
         font-size: 1.2rem;
-        background-color: rgb(193, 83, 83);
+        background-color: rgb(37,33,234);
         padding: 0.5rem 1.2rem;
         border-radius: 1rem;
         border: none;
@@ -198,7 +198,7 @@ p{ background-color: rgb(193, 83, 83);
         height: 40rem;
         padding: 0.5rem;
         margin: 1.5rem auto;
-        border: 0.25rem solid #c29591;
+        border: 0.25rem solid rgb(37, 33, 234);
        
     }
 
@@ -274,12 +274,12 @@ p{ background-color: rgb(193, 83, 83);
     .form-container {
         max-width: 300px;
         padding: 10 px;
-        background-color: rgb(193, 83, 83);
+        background-color: rgb(109,194,174);
         justify-content: space-around;
     }
 
     .form-container .btn {
-        background-color: #c29591;
+        background-color: rgb(234,33,153);
         color: white;
         padding: 16px 20px;
         border: none;
@@ -293,14 +293,14 @@ p{ background-color: rgb(193, 83, 83);
     
 
     .form-container .cancel {
-        background-color: red;
+        background-color: rgb(234,33,153) ;
     }
 
     
      
 
 footer {
-    background-color: #c29591;
+    background-color: rgb(234,33,153);
     height: 100px;
     width: 100%;
     padding: 0px;
