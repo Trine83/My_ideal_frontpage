@@ -13,7 +13,8 @@ html {
     
 }
 body {
-    background-image: url('../assets/Bricks_background.jpg') ;
+    /*background-image: url('../assets/Bricks_background.jpg') ;*/
+    background-color: aliceblue;
     background-size:cover;
     background-repeat: no-repeat;
     justify-content: center;
@@ -32,12 +33,15 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: row;
+    height: 6rem;
     justify-content: space-between;
-    width: 110%;
+    align-items: center;
+    padding: 1rem;
+    
     height: 150%;
     top: 0px;
-    
-    align-items: center;
     /*z-index: 0;
     font-family: 'Sacramento', cursive;
     font-size: 50px;
