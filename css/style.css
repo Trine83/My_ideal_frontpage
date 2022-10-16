@@ -82,6 +82,7 @@ header nav ul li {
 header nav ul li:hover {
     color: rgb(234,33,153);
     text-decoration: underline;
+    
 }
 @media  screen and (min-widht: 700px) {
     header ul {
