@@ -13,10 +13,10 @@ html {
     
 }
 body {
-    background-image: url('../assets/bakgrunncharlie2.png') ;
-    /*background-color: aliceblue;*/
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-image: url('../assets/bakgrunncharlie3.png');
+    /*background-color: aliceblue;
+    background-size:cover;*/
+    background-repeat: repeat;
     justify-content: center;
     
     
@@ -140,6 +140,7 @@ header nav {
     
 p { 
     background-color: #F9BDE1;
+    border-radius: 10px;
     
     
 }
@@ -221,6 +222,8 @@ p {
         margin: 1.5rem auto;
         border: 0.25rem solid #A8A6F7;
         background-color: #A8A6F7;
+        border-radius: 10px;
+        
        
     }
 
@@ -247,24 +250,28 @@ p {
 
     .flex-item-charlie {
         margin: auto;
+        border-radius: 10px;
                
         
 
     }
 
     .flex-item-Lily {
-
-    margin: auto;
+        margin: auto;
+        border-radius: 10px;
         
     }
 
     .flex-item-big charlie {
         margin: auto;
+        border-radius: 10px;
 
     }
 
     .flex-item-big-lily {
         margin: auto;
+        border-radius: 20px;
+        
        
         
 
@@ -300,6 +307,7 @@ p {
         margin-bottom: 2rem;
         margin-right: 3rem;
         margin-left: 10rem;
+        border-radius: 10px;
         
         
     }
