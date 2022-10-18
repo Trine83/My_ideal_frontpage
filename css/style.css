@@ -76,6 +76,8 @@ header nav ul li {
     transition-duration: 0.6s;
     transition-timing-function: ease-in-out;
     transition-delay: 0.2s;
+    margin: 1rem;
+
     
 }
 
@@ -122,6 +124,7 @@ header nav ul li:hover {
  
     
 p{ background-color: rgb(234,33,153);
+    
 }
 
 .first-paragraph {
@@ -293,7 +296,7 @@ p{ background-color: rgb(234,33,153);
         cursor: pointer;
         width: 100%;
         margin-bottom: 10px;
-        opacity: 0.8;
+        
     }
 
         
@@ -311,6 +314,7 @@ footer {
     height: 100px;
     width: 100%;
     padding: 0px;
+    opacity: 30%;
 }
     
     
