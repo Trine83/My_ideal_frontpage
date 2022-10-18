@@ -13,8 +13,8 @@ html {
     
 }
 body {
-    /*background-image: url('../assets/Bricks_background.jpg') ;*/
-    background-color: aliceblue;
+    background-image: url('../assets/bakgrunncharlie2.png') ;
+    /*background-color: aliceblue;*/
     background-size:cover;
     background-repeat: no-repeat;
     justify-content: center;
