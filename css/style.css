@@ -42,7 +42,7 @@ body {
 }
 
 header {
-    background-color: #6DC2AE;
+    /*background-color: #6DC2AE;*/
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
@@ -100,6 +100,16 @@ header nav ul li:hover {
     
 }
 
+header nav {
+    display: none;
+}
+
+@media  screen and (min-width: 700px) {
+    header nav {
+        display: block;
+    }
+}
+
 .hamburger {
     display: block;
 }
@@ -128,7 +138,9 @@ header nav ul li:hover {
 
  
     
-p{ background-color: #F9BDE1;
+p { 
+    background-color: #F9BDE1;
+    
     
 }
 
@@ -166,10 +178,7 @@ p{ background-color: #F9BDE1;
     }
 
     .inside-box {
-        background-color: #F9BDE1;
-        position: absolute;
-        
-           
+        background-color: #F9BDE1;  
     }
 
     @keyframes movein {
@@ -203,10 +212,7 @@ p{ background-color: #F9BDE1;
 
     }
 
-   /* .videowrapper {
-        height: 10rem
-        width: 10rem;
-    }*/
+   
 
     .box-model {
         width: 40rem;
@@ -291,7 +297,11 @@ p{ background-color: #F9BDE1;
         max-width: 300px;
         padding: 10 px;
         background-color: #F9BDE1;
-        justify-content: space-around;
+        margin-bottom: 2rem;
+        margin-right: 3rem;
+        margin-left: 10rem;
+        
+        
     }
 
     .form-container .btn {
@@ -302,6 +312,7 @@ p{ background-color: #F9BDE1;
         cursor: pointer;
         width: 100%;
         margin-bottom: 10px;
+        position: relative;
         
     }
 
@@ -329,12 +340,7 @@ footer {
     display: block;
 }
 
-/*@media screen and (min-width:700px) {
-    .footer-nav {
-        display: flex;
-    }
-    
-}*/
+
     
 .footer-nav ul {
     display: flex;
