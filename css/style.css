@@ -219,7 +219,8 @@ p{ background-color: #F9BDE1;
         height: 40rem;
         padding: 0.5rem;
         margin: 1.5rem auto;
-        border: 0.25rem solid rgb(37, 33, 234);
+        border: 0.25rem solid #A8A6F7;
+        background-color: #A8A6F7;
        
     }
 
@@ -295,13 +296,13 @@ p{ background-color: #F9BDE1;
     .form-container {
         max-width: 300px;
         padding: 10 px;
-        background-color: rgb(109,194,174);
+        background-color: #F9BDE1;
         justify-content: space-around;
     }
 
     .form-container .btn {
-        background-color: rgb(234,33,153);
-        color: white;
+        background-color: #A8A6F7;
+        color: black;
         padding: 16px 20px;
         border: none;
         cursor: pointer;
@@ -314,7 +315,7 @@ p{ background-color: #F9BDE1;
     
 
     .form-container .cancel {
-        background-color: rgb(234,33,153) ;
+        background-color: #A8A6F7 ;
     }
 
     
