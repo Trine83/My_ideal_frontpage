@@ -42,7 +42,7 @@ body {
 }
 
 header {
-    /*background-color: #6DC2AE;*/
+    background-color: #6DC2AE;
     display: flex;
     flex-direction: row;
     flex-flow: row wrap;
