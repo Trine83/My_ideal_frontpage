@@ -262,9 +262,9 @@ p {
 
     .open button {
         
-        color: rgb(193, 83, 83);
+        color: black;
         padding: 16px 20px;
-        border-radius: 10%;
+        border-radius: 10px;
         cursor: pointer;
         opacity: 0.8;
         position: fixed;
@@ -285,7 +285,7 @@ p {
 
     .form-container {
         max-width: 300px;
-        padding: 10 px;
+        padding: 20 px;
         background-color: #F9BDE1;
         margin-bottom: 2rem;
         margin-right: 3rem;
@@ -301,9 +301,10 @@ p {
         padding: 16px 20px;
         border: none;
         cursor: pointer;
-        width: 100%;
+        width: 70%;
         margin-bottom: 10px;
         position: relative;
+        border-radius: 10px;
         
     }
 
