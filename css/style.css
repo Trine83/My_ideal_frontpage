@@ -18,10 +18,7 @@ body {
     background-size:cover;*/
     background-repeat: repeat;
     justify-content: center;
-    
-    
     font-family: 'Inter', cursive;
-    font-size: 100 px;
     text-align: center;
     
 }
@@ -37,7 +34,6 @@ body {
 
 .h2 {
     text-align: center;
-    
     
 }
 
@@ -140,6 +136,8 @@ header nav {
 p { 
     background-color: #F9BDE1;
     border-radius: 10px;
+    font-size: 2rem;
+    
     
     
 }
@@ -148,7 +146,7 @@ p {
      width: 100%;
      height: rem;
      position: relative;
-     font-size: 2rem;
+    font-size: 1.2rem;
      
 
     }
@@ -207,11 +205,11 @@ p {
         width: 100%;
     }
 
-    .box-model-2 {
+    /*.box-model-2 {
         font-size: 1.2rem;
         justify-content: space-around;
         
-    }
+    }*/
 
     .flex-container {
         position: relative;
